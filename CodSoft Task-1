@@ -1,0 +1,960 @@
+Personal Portofolio Explaination: -
+
+I am thrilled to share that, under the guidance of my professors at the university, I have successfully created my personal portfolio. This project has been a culmination of my academic journey so far, allowing me to apply and showcase the skills I have acquired in HTML, CSS, and JavaScript.
+
+Throughout my coursework, I have delved into the intricacies of web development, and this portfolio stands as a tangible representation of my learning and growth. HTML forms the backbone, providing the structure and semantic markup, while CSS brings aesthetic appeal and responsiveness to the design. The inclusion of JavaScript adds dynamic functionality, enhancing user interaction and overall user experience.
+
+This project not only serves as a testament to my technical proficiency but also reflects my commitment to continuous learning and improvement. I have strived to implement best practices in web development, ensuring clean and maintainable code.
+
+Within the portfolio, you will find a collection of my projects, achievements, and a glimpse into my skills and aspirations. I believe this platform not only showcases my technical abilities but also highlights my creativity and problem-solving skills.
+
+I look forward to further refining and expanding my portfolio as I continue to explore new technologies and deepen my understanding of web development. This endeavor has not only been an educational experience but also a testament to my passion for creating meaningful and impactful digital experiences. I invite you to explore my portfolio and witness the journey I've undertaken in the realm of web development.
+
+
+Html code: -
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#achievements" style="--i:3">Achievements</a>
+            <a href="#skills" style="--i:4">Skills</a>
+            <a href="#contact" style="--i:5">Contact</a>
+         </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello,Its Me</h3>
+            <h1>CH KRISHNA VAMSI</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>Web Developer with extensive experience.
+                <br>Expertise is to create and website designs,Frontend design and many more..
+            </p>
+            <div class="home-sci">
+                <a href="#" style="--i:7"><i class='bx bxl-facebook'></i></a>
+                <a href="#" style="--i:8"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" style="--i:9"><i class='bx bxl-whatsapp' ></i></a>
+                <a href="#" style="--i:10"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+        </div>
+        <div class="about-text">
+            <h2>About<span>Me</span></h2>
+            <h4>Full Stack Developer</h4>
+            <p>I have always been interested in computer science and programming. As an aim to land in a programming job, I have been doing programming in C, Java and Python and have solved many programming questions in Hackerrank platform. As I am in 3rd year 2 semester, I was introduced to web development. I was interested in it and have done some courses in youtube. The reason I like Full stack Development is it allows us to build applications which directly interact with users. In a way the creativity or design directly approaches the users and allows us to build with great user experience. Along with the full stack development I have also learnt about the UI Design Principles which help in designing which provide best experience for users. My strength is that I stay focused and commited on a task untill it gets done and same applies for learning.</p>
+
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+    <section class="MyAchievements" id="achievements">
+        <div class="MyAchievements" id="MyAchievements">
+            <div class="container">
+                <h1 class="sub-title"><i class='bx bxs-certification' style='color:#03e5ff'  ></i>My<span>Achievements</span></h1>
+                <div class="Achievements-List">
+                    <div>
+                        <i class='bx bxs-data' style='color:#00fffe' ></i>
+                        <h2>What is Data Science</h2>
+                        <p>In the course of your Data Science journey, I likely delved into fundamental concepts such as data exploration, cleaning, and preprocessing, laying the groundwork for robust analysis. Understanding various statistical techniques and machine learning algorithms,I gained the skills necessary to build predictive models and uncover patterns within data sets.
+
+                            Furthermore, my  coursework may have included the application of programming languages like Python or R, as well as the utilization of powerful libraries and frameworks such as TensorFlow or Scikit-Learn. These tools enable me to implement sophisticated algorithms and create data visualizations that effectively communicate your findings to diverse audiences.</p>
+                            <a href="https://www.coursera.org/account/accomplishments/verify/UMD2V2LPXSGJ" class="read" target="_blank">Learn more</a>
+                    </div>
+                    <div>
+                        <i class='bx bx-data' style='color:#00fffe' ></i>
+                        <h2>Data Vizualization with R</h2>
+                        <p>Throughout the course, the exploration encompassed a diverse array of visualization techniques available in R, ranging from basic charts like bar graphs and scatter plots to more advanced visualizations such as heatmaps, treemaps, and interactive dashboards. A solid grasp of the principles of visual perception and design was acquired, fostering skills to create visuals that not only convey information accurately but also engage and inform the audience.</p>
+                        <a href="https://www.coursera.org/account/accomplishments/verify/JJ8F58VRL69A" class="read" target="_blank">Learn more</a>
+                    </div>
+                    <div>
+                        <i class='bx bxs-data' style='color:#00fffe' ></i>
+                        <h2>Data Analysis with python</h2>
+                        <p>This is also one of similar course which i learned about Data Manipulation with pandas:
+                            Working with DataFrames and Series.
+                            Filtering and selecting data.
+                            Grouping and aggregating data.</p>
+                            <a href="https://www.coursera.org/account/accomplishments/verify/UMD2V2LPXSGJ" class="read" target="_blank">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <h1 class="sub-title">My <span>Skills</span></h1>
+
+    <section id="skills">
+        <div class="container1" id="Skills">
+        
+            <h1 class="heading1">Technical Skills</h1>
+            <div class="Technical-bars">
+    <!-- HTML -->
+    <div class="bar">
+        <i class='bx bxl-html5' style='color:#c95d2e'></i>
+        <div class="info">
+            <span>HTML</span>
+        </div>
+        <div class="progress-line html">
+            <span></span>
+        </div>
+    </div>
+    <!-- CSS -->
+    <div class="bar">
+        <i class='bx bxl-css3' style='color:#147bbc'></i>
+        <div class="info">
+            <span>CSS</span>
+        </div>
+        <div class="progress-line css">
+            <span></span>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <div class="bar">
+        <i class='bx bxl-javascript' style='color:#b0bc1e'></i>
+        <div class="info">
+            <span>Javascript</span>
+        </div>
+        <div class="progress-line javascript">
+            <span></span>
+        </div>
+    </div>
+
+    <!-- Python -->
+    <div class="bar">
+        <i class='bx bxl-python' style='color:#c32ec9'></i>
+        <div class="info">
+            <span>Python</span>
+        </div>
+        <div class="progress-line python">
+            <span></span>
+        </div>
+    </div>
+
+    <!-- ReactJs -->
+    <div class="bar">
+        <i class='bx bxl-react' style='color:#69bcbc'></i>
+        <div class="info">
+            <span>ReactJs</span>
+        </div>
+        <div class="progress-line react">
+            <span></span>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="container2">
+    <h1 class="heading1">Professional Skills</h1>
+    <div class="radial-bars">
+        <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                <circle class="path path-1" cx="100" cy="80" r="80"></circle>
+            </svg>
+            <div class="percentage">60%</div>
+            <div class="text">Problem Solving</div>
+        </div>
+
+        <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                <circle class="path path-2" cx="100" cy="80" r="80"></circle>
+            </svg>
+            <div class="percentage">70%</div>
+            <div class="text">Creativity</div>
+        </div>
+
+        <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                <circle class="path path-3" cx="100" cy="80" r="80"></circle>
+            </svg>
+            <div class="percentage">80%</div>
+            <div class="text">Communication</div>
+        </div>
+
+        <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                <circle class="path path-4" cx="100" cy="80" r="80"></circle>
+            </svg>
+            <div class="percentage">90%</div>
+            <div class="text">Teamwork</div>
+        </div>
+    </div>
+</div>
+</div>
+    </section>
+
+    <section class="contacts" id="contact">
+    <div class="contact-text">
+        <h2>Contact <span>Me</span></h2>
+        <h4>Let's Work Together</h4>
+        <div class="contact-list">
+            <li><i class='bx bxs-send'></i>chkrishnavamsi63@gmail.com</li>
+            <li><i class="bx bxs-phone-call" ></i>7416503355</li>
+        </div>
+    
+        <div class="contact-icons">
+            <a href="https://github.com/2002krishna" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/vamsi1234544/?hl=en" target="_blank"><i class="bx bxl-instagram"></i></a>
+            <a href="https://www.linkedin.com/jobs/view/3800410065/?trackingId=oQ1RwJQTR8KD8ag6TfAMrg%3D%3D&refId=zYe2Q1QIT76KAywXkRJHCA%3D%3D&midToken=AQHWMwuJheJBnQ&midSig=3_7Glu2z-NzH41&trk=eml-jobs_jymbii_digest-job_card-0-jobcard_body&trkEmail=eml-jobs_jymbii_digest-job_card-0-jobcard_body-null-gnmswd~lr6k1g36~ek-null-null&eid=gnmswd-lr6k1g36-ek&otpToken=MTMwNTFlZTcxMzJiY2FjY2IyMjcwZmViNDExZWUzYmM4ZWM5ZDA0MzllYWE4YjZkN2JjZjAzNjc0YzU4NTlmNGYyZDNkM2U5NjFlOGJiZTcwMDg5ZTI4NGE4NmNlZWMzZmRhYTJjNDJlODBhZTgxYTkzOThlYzk5LDEsMQ%3D%3D" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        </div>
+    </div>
+
+</section>
+        
+<div class="last-text">
+    <p>Developed by CHIVUKULA KRISHNA VAMSI <i class='bx bx-copyright' style="color: white;"></i> 2024</p>
+</div>
+<a href="#Home" class="top"><i class='bx bx-up-arrow-alt' ></i></a>
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
+CSS code: -
+
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    color: azure;
+    background:rgb(0, 6, 84);
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #051129;
+    display: flex;
+    justify-content: space-between;
+    align-items: cover;
+    z-index: 100;
+}
+
+.logo {
+    position: relative;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    cursor: default;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+
+.navbar a {
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    background: url(images/background.png) no-repeat;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    opacity: 0;
+    animation: slideTop .5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+
+}
+
+.navbar a:hover {
+    color: #0ef;
+}
+
+.home {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url(images/background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+    color: solid;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h3 {
+    font-size: 33px;
+    font-weight: 700;
+    margin: -3px 0;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .7s;
+}
+
+.home-content h3:nth-of-type(2) {
+    margin-bottom: 30px;
+    animation: slideTop 1s ease forwards;
+     animation-delay: .7s;
+}
+
+.home-content h3 span {
+    color: #0ef;
+}
+
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
+}
+.home-content p {
+    font-size: 20px;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+    transition: .5s ease;
+    margin: 30px 15px 30px 0;
+}
+
+.home-sci a:hover {
+    background: #0ef;
+    color: black;
+    box-shadow: 0 0 20px #0ef;
+}
+
+.btn-box {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 17px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop .5s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px #0ef;
+}
+
+.btn-box:hover {
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan 0 0 200px cyan;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 1.5em;
+}
+
+.about-text h2{
+    font-size: 60px;
+}
+
+.about-text h2 span {
+    color:#0ef;
+}
+
+.about-text h4{
+    font-size: 29px;
+    font-weight: 600;
+    color:#fff;
+    line-height: 1.7;
+    margin:15px 0 30px;
+}
+
+.about-text p{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+
+
+
+
+
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideTop {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideBottom {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+#MyAchievements{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+.sub-title{
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+}
+.sub-title span{
+color:#0ef;
+}
+
+.container{
+    padding: 50px;
+}
+
+.container1 {
+        width: 600px;
+        max-height: 500px;
+        padding: 20px;
+        margin-left: 50px;
+    }
+.container2 {
+        width: 600px;
+        max-height: 500px;
+        padding: 10px;
+        margin-left: 0px;
+    }
+
+.Achievements-List{
+    display: grid;
+    grid-template-columns: repeat(autofit,minmax(260px 1fr));
+    grid-gap: 40px;
+    margin-top:50px;
+}
+.Achievements-List div{
+    background-color: transparent;
+    padding: 40px;
+    font-size: 15px;
+    font-weight: 15px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s transform 0.5s;
+    box-shadow: 1px 1px 20px #012290f7,
+                1px 1px 20px #012290f7; 
+}
+.Achievements-List div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.Achievements-List div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom:15px;
+}
+.Achievements-List div a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.read{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 17px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px #0ef,
+    0 0 5px #0ef;
+}
+.read:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan,
+}
+.Achievements-List div:hover{
+    transform: translateY(-10px);
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.container2{
+    width: 600px;
+    height: 500px;
+    padding: 75px 90px;
+    margin-left: 120px;
+}
+.heading1{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50px;
+}
+.bar{
+    font-size: 25px;
+}
+.Technical-bars .bar{
+    margin-top: 40px 0;
+}
+.Technical-bars .bar:first-child{
+    margin-top: 0;
+}
+.Technical-bars .bar:last-child{
+    margin-bottom: 0;
+}
+.Technical-bars .bar .info{
+    margin-bottom: 5px;
+}
+.Technical-bars  .bar .info span{
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
+.Technical-bars .bar .progress-line {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    background-color: #000000;
+    animation: animate 1s  cubic-bezier(1,0,0,5,1) forwards;
+    transform-origin: left;
+}
+
+@keyframes animate{
+    100%{
+        transform: scaleX(1);
+    }
+}
+.Technical-bars  .bar  .progress-line span{
+    height: 100%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation:animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+    transform-origin: left;
+}
+.progress-line.html span{
+    width: 90%;
+}
+.progress-line.css span{
+    width: 60%;
+}
+.progress-line.javascript span{
+    width: 75%;
+}
+.progress-line.python span{
+    width: 80%;
+}
+.progress-line.react span{
+    width: 90%;
+}
+
+.progress-line span::after{
+    position:absolute;
+    padding: 1px 8px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 3px;
+    top: -28px;
+    right: -20px;
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+}
+
+.progress-line.html span::after{
+    content:"90%";
+}
+.progress-line.css span::after{
+    content:"65%";
+}
+.progress-line.javascript span::after{
+    content:"85%";
+}
+.progress-line.python span::after{
+    content:"89%";
+}
+.progress-line.react span::after{
+    content:"90%";
+}
+
+
+.progress-line span::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000000;
+    top: -10px;
+    right: 0;
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+}
+@keyframes showText{
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.radial-bars {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.radial-bars .radial-bar {
+    width: 50%;
+    height: 170px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.radial-bars .radial-bar svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 120px;
+    height: 160px;
+}
+
+.radial-bars .radial-bar .progress-bar {
+    stroke-width: 10;
+    stop-color: black;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+}
+
+.path {
+    stroke-width: 10;
+    stroke: #0ef;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+}
+
+.path.path-1 {
+    animation: animate-path1 1s 1s linear forwards;
+}
+
+.path.path-2 {
+    animation: animate-path2 1s 1s linear forwards;
+}
+
+.path.path-3 {
+    animation: animate-path3 1s 1s linear forwards;
+}
+
+.path.path-4 {
+    animation: animate-path4 1s 1s linear forwards;
+}
+
+.radial-bar .percentage {
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
+
+.radial-bar .text {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    left: 15%;
+    bottom: 5px;
+    transform: translateX(-50px);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
+
+@keyframes animate-path1 {
+    100% {
+        stroke-dashoffset: 190;
+    }
+}
+
+@keyframes animate-path2 {
+    100% {
+        stroke-dashoffset: 200;
+    }
+}
+
+@keyframes animate-path3 {
+    100% {
+        stroke-dashoffset: 90;
+    }
+}
+
+@keyframes animate-path4 {
+    100% {
+        stroke-dashoffset: 50;
+    }
+}
+
+
+.contacts {
+    display: grid;
+    align-items: center;
+    gap: 3rem;
+    padding: 40px;
+    padding-top: 70px;
+    justify-content: center;
+    background-color: #000;
+}
+
+.contact-text {
+    align-content: center;
+    
+}
+
+.contact-text h2 {
+    font-size: 60px;
+    line-height: normal;
+    text-align: center;
+    
+
+}
+
+.contact-text h2 span {
+    color: rgb(0, 238, 255);
+}
+
+.contact-text h4 {
+    margin: 15px 0;
+    color: rgb(228, 228, 228,228);
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.contact-text p{
+    color: rgb(177, 177, 177);
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+   
+}
+.contact-list {
+    margin-bottom: 3rem;
+    
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+    display: block;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    
+}
+
+.contact-list i {
+    display: inline-block;
+    color: #0ef;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .40s ease;
+    padding: 10px;
+   
+}
+
+
+.contact-icons i {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+
+    color: #0ef;
+    text-decoration: none;
+    margin: 0px 15px 0px 0;
+    opacity: 1;
+}
+
+.contact-icons i:hover {
+    background: #0ef;
+    color: #000;
+    box-shadow: 0 0 20px #0ef;
+}
+.contacts h2{
+    font-size: 50px;
+}
+.contact-list i{
+    font-size: 15px;
+    padding: 5px 5px 0 0;
+}
+.contacts h2{
+    font-size: 50px;
+}
+.contact-list i{
+    font-size: 13px;
+    padding: 5px 5px 0 0;
+}
+
+.last-text p{
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    background: black;
+    font-weight: 300;
+    margin-top: 0px;
+}
+
+
+Javascript code: -
+var typed = new Typed(".text", {
+    strings: ["Frontend Developer", "Web Developer", "Backend Developer"],
+    typeSpeed: 100,
+    backSpeed: 50,
+    backDelay: 1000,
+    loop: true
+});
+
+const toTop = document.querySelector(".top");
+window.addEventListener("scroll", () => {
+    if (window.pageYOffset > 100) {
+        toTop.classList.add("active");
+    } else {
+        toTop.classList.remove("active");
+    }
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const navLinks = document.querySelectorAll(".navbar a");
+
+    navLinks.forEach(link => {
+        link.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute("href").substring(1);
+            const targetElement = document.getElementById(targetId);
+
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop,
+                    behavior: "smooth"
+                });
+            }
+        });
+    });
+});
+
+
+I unable to uplaod the images what i have taken as a background. because i dont know how to share the images in github sorry.Please excuse me.
+
